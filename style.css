@@ -3,13 +3,16 @@
 /* nav section */
 body{
     background-color: #f9f9f9;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .body
 {
     max-width: 1140px;
     margin: 0 auto;
     overflow-x: hidden;
-    overflow-y: hidden;
+    
 }
 .text-blur{
     color: #8987A1 ;
@@ -395,7 +398,7 @@ section .latest-deal{
     padding: 0rem 1.5rem 1.5rem 1.5rem;
     text-align: center;
      height: 300px;
-     width: 90%;
+     width: 92%;
      max-width: 576px;
 justify-content: center;
 align-items: center;
@@ -507,5 +510,10 @@ align-items: center;
     margin-top: 0.5rem;
     justify-content: flex-start;
   }
+}
+@media screen  and (max-width:576px){
+    .body{
+        margin-left: 1rem;
+    }
 }
             /* the end */
