@@ -512,8 +512,11 @@ align-items: center;
   }
 }
 @media screen  and (max-width:576px){
+    body{
+        margin-right: 0;    }
     .body{
         margin-left: 1rem;
+        
     }
 }
             /* the end */
